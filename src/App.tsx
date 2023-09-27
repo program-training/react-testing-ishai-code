@@ -1,10 +1,9 @@
 import "./App.css";
-import { Example } from "./components/Example/Example";
-
+import { UserForm } from "./components/userPage/UserForm";
 function App() {
   return (
     <>
-      <Example />{" "}
+      <UserForm />
     </>
   );
 }
